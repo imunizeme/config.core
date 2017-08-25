@@ -21,6 +21,7 @@ type Config struct {
 	PGUser   string `toml:"pg_user" cfg:"pg_user" cfgDefault:"postgres"`
 	Prest    Prest  `toml:"prest" cfg:"prest"`
 	Auth     Auth   `toml:"auth" cfg:"auth"`
+	Bot      Bot    `toml:"bot" cfg:"bot"`
 }
 
 // Prest config
